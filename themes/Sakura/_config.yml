@@ -2,11 +2,12 @@
 prefixName: Juan&Joey の
 siteName:  部落格
 # favicon and site master avatar
-favicon: /images/favicon.ico
-avatar: /img/custom/avatar.jpg
+favicon: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/images/favicon.ico
+avatar: /avatar/WechatIMG111.jpeg
 url: https://joey0x.github.io
 description: Being with you is like walking on a very clear morning. 
-cdn: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6
+#cdn: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6
+cdn: https://cdn.jsdelivr.net/gh/joey0x/cdn-for-githubio
 pjax: 1
 # 1开启
 mathjax: 0
@@ -32,23 +33,21 @@ homePageSortType: -1
 homeArticleShown: 10
 # 背景图片 更好的修改
 bg:
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(1).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(2).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(3).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(4).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(5).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(6).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(7).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(8).jpg.webp
+  - https://cdn.jsdelivr.net/gh/joey0x/cdn-for-githubio/images/WechatIMG112.jpeg
+  - https://cdn.jsdelivr.net/gh/joey0x/cdn-for-githubio/images/WechatIMG107.jpeg
+  - https://cdn.jsdelivr.net/gh/joey0x/cdn-for-githubio/images/WechatIMG108.jpeg
+  - https://cdn.jsdelivr.net/gh/joey0x/cdn-for-githubio/images/WechatIMG109.jpeg
+  - https://cdn.jsdelivr.net/gh/joey0x/cdn-for-githubio/images/1041639572571_.pic.jpg
+
 
 # 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
-bgclass: filter-dot
+bgclass: filter-dim
 
 # startdash url, title, desc img
 startdash: 
-  - {url: /theme-sakura/, title: Sakura, desc: 本站 hexo 主题, img: /img/startdash/sakura.md.png}
-  - {url: http://space.bilibili.com/271849279, title: Bilibili, desc: 博主的b站视频, img: /img/startdash/bilibili.jpg}
-  - {url: /, title: hojun的万事屋, desc: 技术服务, img: /img/startdash/wangshiwu.jpg}
+#- {url: /theme-sakura/, title: Sakura, desc: 本站 hexo 主题, img: /img/startdash/sakura.md.png}
+  
+  
 
 
 
@@ -57,7 +56,7 @@ siteBuildingTime: 12/12/2021
 
 #social  url, img PC端配置
 social:
-  github: {url: https://github.com/joey0x, img: /img/social/github.png} 
+  github: {url: https://github.com/joey0x, img: /avatar/github.jpg} 
 
 #social  url, img 移动端配置
 msocial:
@@ -80,11 +79,11 @@ aplayer:
   server: netease
   type: playlist
   fixed: true
-  autoplay: false
+  autoplay: true
   loop: all
   order: random
   preload: auto
-  volume: 0.7
+  volume: 0.7 
   mutex: true
 
 # Valine
