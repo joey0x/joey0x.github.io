@@ -1,16 +1,15 @@
 ---
-layout: bangumi
-title: bangumi
+layout: 悦读
+title: 悦读
 comments: false
 date: 2021-12-17 24:06:48
 keywords:
 description:
-bangumis:
-  - img: https://cdn.jsdelivr.net/gh/joey0x/cdn-for-githubio/bangumi/sichongzou.jpeg
-    title: 四重奏
-    status: 已追完
+悦读:
+  - img: https://img1.doubanio.com/view/subject/l/public/s33519539.jpg
+    title: 呼吸
+    status: 已读完
     progress: 100
-    jp: カルテット
     time: 2021-08-21 SAT.
     desc: 匆忙浮躁的都市中，四个与音乐相关的男男女女看似偶然般地邂逅了，他们分别是第一小提琴手卷真纪（松隆子 饰）、大提琴手世吹雀（满岛光 饰）、中提琴手家森谕高（高桥一生 饰）以及第二提琴手别府司（松田龙平 饰）。仿佛是对音乐的共同志向，他们组建了名为“甜甜圈洞”的四重奏乐队，暂时落脚于别府家位于轻井泽的别墅，过起了与世隔绝的人生。然而四个人终究无法超脱世俗存在，除了最基本的吃饭问题，每个人似乎都被各自的秘密所牵扯纠缠。其中雀与真纪“邂逅”的原因，恰恰正是因为真纪丈夫的不辞而别。雪花飘落，寒风萧瑟，四重奏的悠扬旋律荡涤且治愈着他们每一个人的心……
 ---

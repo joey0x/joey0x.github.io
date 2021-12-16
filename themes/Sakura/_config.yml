@@ -20,8 +20,7 @@ menus:
   归档: { path: /archives, fa: fa-archive faa-shake }
   清单: { path: javascript:;, fa: fa-list-ul faa-vertical, submenus: { 
     书单: {path: /tags/悦读/, fa: fa-th-list faa-bounce }, 
-    番组: {path: /bangumi/, fa: fa-film faa-vertical }, 
-    歌单: {path: /music/, fa: fa-headphones },
+    番组: {path: /bangumi/, fa: fa-film faa-vertical },  
     图集: {path: /tags/图集/, fa: fa-photo }
   } }
  
@@ -63,10 +62,7 @@ msocial:
   github: {url: https://github.com/joey0x, fa: fa-github, color: 333} 
 
 donate:
-  paypal:
   alipay:
-  wechat:
-  wechatSQ:
 
 # 视频地址为https://cdn.jsdelivr.net/gh/honjun/hojun@1.2/Unbroken.mp4，配置如下
 movies:
