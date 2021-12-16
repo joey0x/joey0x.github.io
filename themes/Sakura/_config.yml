@@ -75,17 +75,18 @@ movies:
   name: soulmate.mp4
 
 aplayer: 
-  id: 6933994635
+  id: 5239867871
   server: netease
   type: playlist
   fixed: true 
-  listfolded: false
+  listfolded: true
   autoplay: true
   loop: all
-  order: random
+  order: list
   preload: auto
   volume: 0.7 
-  mutex: true
+  mutex: false
+  theme: orange
 
 # Valine
 valine: true
